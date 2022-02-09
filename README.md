@@ -57,7 +57,6 @@
 	odliczanie();
 </script>
 <div id="footer">
-Dołącz do klas informatycznych SLO i &lt;koduj&gt;
 </div>
 </div>
 </body>
