@@ -1,8 +1,8 @@
-<!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
-	<title>Odliczanie dni do wydarzenia </title>
+	<title>Odliczanie dni do ferii zimowych???</title>
 	
 	<script type="text/javascript" >
 
@@ -16,7 +16,7 @@
 		var rok = dzisiaj.getFullYear();
 		var milisekundy = dzisiaj.getTime();
 		
-		var end = new Date("06/25/2021");//data wydarzenia
+		var end = new Date("02/14/2022");//data wydarzenia
 		var endDzien = end.getDate();
 		var endMiesiac = end.getMonth()+1;
 		var endRok = end.getFullYear();
@@ -29,19 +29,20 @@
 		
 		document.getElementById("aktualnaData").innerHTML = "Aktualna data: "+dzien+"/"+miesiac+"/"+rok; 
 		document.getElementById("dataWydarzenia").innerHTML = "Data wydarzenia do którego obliczamy liczbę dni: "+endDzien+"/"+endMiesiac+"/"+endRok;
-		document.getElementById("dniDoWydarzenia").innerHTML ="Do wydarzenia pozostało: "+ dni;
+		document.getElementById("dniDoWydarzenia").innerHTML ="Do końca półrocza  pozostało: "+ dni+"dni";
 		 
 	}
 	
 	</script>
 
-	<link rel="stylesheet" href="cssnew 1.txt" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
 	
 </head>
 <body>
 
 <div id="container">
 <div id="topBar">
+Ile dni pozostało do ferii.</div>
 	
 	<div id="aktualnaData">...</div> 
 
@@ -57,6 +58,7 @@
 	odliczanie();
 </script>
 <div id="footer">
+
 </div>
 </div>
 </body>
