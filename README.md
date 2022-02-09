@@ -42,7 +42,6 @@
 
 <div id="container">
 <div id="topBar">
-Zadanie: Utwórz i sformatuj stronę odliczjącą liczbę dni do wydarzenia np. „Ile dni pozostało do wakacji.”</div>
 	
 	<div id="aktualnaData">...</div> 
 
